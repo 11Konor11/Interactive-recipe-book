@@ -1,0 +1,165 @@
+body{
+	background: darkgoldenrod;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px black;
+	overflow: auto;
+}
+
+div{
+	height: 10vw;
+	width: 10vw;
+	margin: 2px auto 0px auto;
+}
+
+h1{
+	margin: 0px 3vw 0px 3vw;
+
+}
+
+h1:hover{
+	color: darkgreen;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+#hero{
+	height: 20%;
+	width: 40%;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	display: flex;
+}
+
+#image{
+	background-size: cover;
+	border: 2px solid darkgreen;
+	border-radius: 20%;
+	animation: flash 1s infinite linear;
+}
+
+@keyframes flash{
+	0%{opacity: 1}
+	80%{opacity: 1}
+	100%{opacity: 0}
+}
+
+@keyframes appearance{
+	0%{
+	width: 0px;
+	height: 0px;
+	}
+	60%{
+	width: 60%;
+	height: 20%;
+	}
+	100%{
+	width: 80%;
+	height: 40%;
+	}
+}
+
+@keyframes disappearance{
+	0%{
+	width: 80%;
+	height: 40%;
+	}
+	60%{
+	width: 60%;
+	height: 20%;
+	}
+	100%{
+	width: 0px;
+	height: 0px;
+	}
+}
+
+#grid{
+	background: darkgreen;
+	height: 60%;
+	width: 80%;
+	display: grid;
+	gap: 3vw 3vw;
+	grid-template-columns: 15% 15% 15% 15% 15%;
+	grid-template-rows: 40% 40%;
+	justify-content: space-around;
+}
+
+#information{
+	background: darkgreen;
+	height: 0px;
+	width: 0px;
+}
+
+#item1{
+	background-image: url("D:/HTML CSS JS/images/Butter_Chicken.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+
+}
+
+#item2{
+	background-image: url("D:/HTML CSS JS/images/Coq_au_Vin.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+}
+
+#item3{
+	background-image: url("D:/HTML CSS JS/images/Moussaka.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+}
+
+#item4{
+	background-image: url("D:/HTML CSS JS/images/Pad_Thai.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+}
+
+#item5{
+	background-image: url("D:/HTML CSS JS/images/Paella.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+}
+
+#item6{
+	background-image: url("D:/HTML CSS JS/images/Pasta_Carbonara.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+}
+
+#item7{
+	background-image: url("D:/HTML CSS JS/images/Pho.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+}
+
+#item8{
+	background-image: url("D:/HTML CSS JS/images/Sushi.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+}
+
+#item9{
+	background-image: url("D:/HTML CSS JS/images/Tacos_al_Pastor.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+}
+
+#item10{
+	background-image: url("D:/HTML CSS JS/images/Shakshuka.jpg");
+	background-size: cover;
+	border: 2px solid darkgoldenrod;
+	border-radius: 20%;
+}
